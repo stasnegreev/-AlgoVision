@@ -1,0 +1,486 @@
+/****** Elad Shechter's RESET *******/
+/*** box sizing border-box for all elements ***/
+    *,
+    *::before,
+    *::after{box-sizing:border-box;}
+    a{text-decoration:none; color:inherit; cursor:pointer;}
+    button{background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer;}
+    figure{margin:0;}
+    input::-moz-focus-inner {border:0; padding:0; margin:0;}
+    ul, ol, dd{margin:0; padding:0; list-style:none;}
+    h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
+    p{margin:0;}
+    cite {font-style:normal;}
+    fieldset{border-width:0; padding:0; margin:0;}
+
+@keyframes color__1 {
+    0% {
+        background-color: #87CEFA;
+    }
+    20% {
+         background-color: #2db34a;
+    }
+    22% {
+        background-color: #B22222;
+    }
+    25% {
+        background-color: #87CEFA;
+    }
+    40% {
+        background-color: #2db34a;
+    }
+    42% {
+        background-color: #B22222;
+    }
+    45% {
+        background-color: #87CEFA;
+    }
+    55% {
+        background-color: #2db34a;
+    }
+    57% {
+        background-color: #B22222;
+    }
+    60% {
+        background-color: #87CEFA;
+    }
+    65% {
+        background-color: #2db34a;
+    }
+    67% {
+        background-color: #B22222;
+    }
+    70% {
+        background-color: #2db34a;
+    }
+    72% {
+        background-color: #B22222;
+    }
+    75% {
+        background-color: #87CEFA;
+    }
+    100% {
+        background-color: #87CEFA;
+
+    }
+}
+@keyframes color__2 {
+    0% {
+        background-color: #87CEFA;
+    }
+    10% {
+        background-color: #2db34a;
+    }
+    12%{
+        background-color: #B22222;
+    }
+    15% {
+        background-color: #87CEFA;
+
+    }
+    30% {
+        background-color: #2db34a;
+    }
+    32% {
+        background-color: #B22222;
+    }
+    35% {
+        background-color: #87CEFA;
+    }
+    45% {
+        background-color: #2db34a;
+    }
+    47% {
+        background-color: #B22222;
+    }
+    50% {
+        background-color: #87CEFA;
+    }
+    60% {
+        background-color: #2db34a;
+    }
+    65% {
+        background-color: #87CEFA;
+    }
+    70% {
+        background-color: #2db34a;
+    }
+    72% {
+        background-color: #B22222;
+    }
+    75% {
+        background-color: #87CEFA;
+    }
+    100% {
+        background-color: #87CEFA;
+    }
+}
+@keyframes color__3 {
+    0% {
+        background-color: #2db34a;
+    }
+    5% {
+        background-color: #87CEFA;
+    }
+    25% {
+        background-color: #2db34a;
+    }
+    30% {
+        background-color: #87CEFA;
+    }
+    45% {
+        background-color: #2db34a;
+    }
+    47% {
+        background-color: #B22222;
+    }
+    50% {
+        background-color: #2db34a;
+    }
+    55% {
+        background-color: #87CEFA;
+    }
+    60% {
+        background-color: #2db34a;
+    }
+    65% {
+        background-color: #2db34a;
+    }
+    67% {
+        background-color: #B22222;
+    }
+    70% {
+        background-color: #87CEFA;
+    }
+    100% {
+        background-color: #87CEFA;
+        left: 0px;
+
+    }
+}
+@keyframes color__4 {
+    15% {
+        background-color: #2db34a;
+    }
+    17% {
+        background-color: #B22222;
+    }
+    20% {
+        background-color: #87CEFA;
+    }
+    35% {
+        background-color: #2db34a;
+    }
+    37% {
+        background-color: #B22222;
+    }
+    40% {
+        background-color: #87CEFA;
+    }
+    50% {
+        background-color: #2db34a;
+    }
+    55% {
+        background-color: #2db34a;
+    }
+    57% {
+        background-color: #B22222;
+    }
+    60% {
+        background-color: #87CEFA;
+    }
+    100% {
+        background-color: #87CEFA;
+    }
+}
+@keyframes color__5 {
+    0% {
+        background-color: #2db34a;
+        left: 0;
+    }
+
+    5% {
+        background-color: #2db34a;
+        left: 0px;
+
+    }
+    10% {
+        background-color: #87CEFA;
+        left: 0px;
+    }
+    25% {
+        background-color: #2db34a;
+    }
+    30% {
+        background-color: #2db34a;
+    }
+    32% {
+        background-color: #B22222;
+    }
+    35% {
+        background-color: #2db34a;
+    }
+    37% {
+        background-color: #B22222;
+    }
+    40% {
+        background-color: #2db34a;
+    }
+    42% {
+        background-color: #B22222;
+    }
+    45% {
+        background-color: #87CEFA;
+    }
+    100% {
+        background-color: #87CEFA;
+    }
+}
+@keyframes color__6 {
+    0% {
+        background-color: #87CEFA;
+    }
+    5% {
+        background-color: #2db34a;
+    }
+    10% {
+        background-color: #2db34a;
+    }
+    12%{
+        background-color: #B22222;
+    }
+    15% {
+        background-color: #2db34a;
+    }
+    17% {
+        background-color: #B22222;
+    }
+    20% {
+        background-color: #2db34a;
+    }
+    22% {
+        background-color: #B22222;
+    }
+    25% {
+        background-color: #87CEFA;
+    }
+    100% {
+        background-color: #87CEFA;
+    }
+}
+
+@keyframes slide__1 {
+    23%{
+        left: 0px;
+    }
+    25% {
+        left: -70px;
+    }
+    40% {
+        left: -70px;
+    }
+    43% {
+        left: -70px;
+    }
+    45% {
+        left: -140px;
+    }
+    58% {
+        left: -140px;
+    }
+    60% {
+        left: -210px;
+    }
+    68% {
+        left: -210px;
+    }
+    70% {
+        left: -280px;
+    }
+    73% {
+        left: -280px;
+    }
+    75% {
+        left: -350px;
+    }
+
+    100%{
+        left: -350px;
+    }
+}
+@keyframes slide__2 {
+    13%{
+        left: 0px;
+    }
+    15% {
+        left: -70px;
+    }
+    33% {
+        left: -70px;
+    }
+    35% {
+        left: -140px;
+    }
+    48%{
+        left: -140px;
+    }
+    50% {
+        left: -210px;
+    }
+    73% {
+        left: -210px;
+    }
+    75% {
+        left: -140px;
+    }
+    100%{
+        left: -140px;
+    }
+}
+@keyframes slide__3 {
+    48%{
+        left: 0px;
+    }
+    50% {
+        left: 70px;
+    }
+    68% {
+        left: 70px;
+    }
+    70% {
+        left: 140px;
+    }
+    100%{
+        left: 140px;
+    }
+}
+@keyframes slide__4 {
+    18% {
+        left: 0px;
+    }
+    20% {
+        left: -70px;
+    }
+    38% {
+        left: -70px;
+    }
+    40% {
+        left: -140px;
+    }
+    58% {
+        left: -140px;
+    }
+    60% {
+        left: -70px;
+    }
+    100%{
+        left: -70px;
+    }
+}
+@keyframes slide__5 {
+    33% {
+        left: 0px;
+    }
+    35% {
+        left: 70px;
+    }
+    38% {
+        left: 70px;
+    }
+    40% {
+        left: 140px;
+    }
+    43% {
+        left: 140px;
+    }
+    45% {
+        left: 210px;
+    }
+    100%{
+        left: 210px;
+    }
+}
+@keyframes slide__6 {
+    13%{
+        left: 0px;
+    }
+    15% {
+        left: 70px;
+    }
+    18% {
+        left: 70px;
+    }
+    20% {
+        left: 140px;
+    }
+    23%{
+        left: 140px;
+    }
+    25% {
+        left: 210px;
+    }
+    100%{
+        left: 210px;
+    }
+}
+.container{
+
+}
+.data__list{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.data__item{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin: 0 5px;
+    background-color: cadetblue;
+
+
+}
+.data__item__1{
+    height: 40px;
+    width: 60px;
+    background-color: #87CEFA;
+    left: 0px;
+    animation: color__1 30s step-end 0s infinite, slide__1 30s ease-out 0s infinite;
+}
+.data__item__2{
+    height: 80px;
+    width: 60px;
+    background-color: #87CEFA;
+    left: 0px;
+    animation: color__2 30s step-end 0s infinite, slide__2 30s ease-out 0s infinite;
+}
+.data__item__3{
+    height: 120px;
+    width: 60px;
+    background-color: #87CEFA;
+    left: 0px;
+    animation: color__3 30s step-end 0s infinite, slide__3 30s ease-out 0s infinite;
+}
+.data__item__4{
+    height: 160px;
+    width: 60px;
+    background-color: #87CEFA;
+    left: 0px;
+    animation: color__4 30s step-end 0s infinite, slide__4 30s ease-out 0s infinite;
+}
+.data__item__5{
+    height: 200px;
+    width: 60px;
+    background-color: #87CEFA;
+    left: 0px;
+    animation: color__5 30s step-end 0s infinite, slide__5 30s ease-out 0s infinite;
+}
+.data__item__6{
+    height: 240px;
+    width: 60px;
+    background-color: #87CEFA;
+    left: 0px;
+    animation-iteration-count: infinite;
+    animation: color__6 30s step-end 0s infinite, slide__6 30s ease-out 0s infinite;
+}
